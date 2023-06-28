@@ -1,0 +1,23 @@
+{
+    "name": "jnoack331/ezworker",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "EzWorker\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Test\\": "test/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Julius Noack",
+            "email": "me@jnoack.de"
+        }
+    ],
+    "require": {
+        "phpspec/phpspec": "^7.4"
+    }
+}
